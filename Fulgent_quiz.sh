@@ -3,12 +3,12 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=32GB
-#SBATCH --output=./error/Fulgent_quiz_%j.out
-#SBATCH --error=./error/Fulgent_quiz_%j.err
+#SBATCH --output=./error/Depth_Demo_%j.out
+#SBATCH --error=./error/Depth_Demo_%j.err
 #SBATCH --mail-user=davidhillis@ucsb.edu
 #SBATCH --mail-type=ALL
 #SBATCH --time=15-00:00:00
-#SBATCH --job-name="Fulgent_quiz"
+#SBATCH --job-name="Depth_Demo"
 
 # Created on 09/20/2024 by David Hillis
 # This code will run using conda environment "general"
