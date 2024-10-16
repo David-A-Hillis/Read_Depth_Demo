@@ -3,9 +3,9 @@
 The scripts in the current directory were created as to demonstrate read depth calculations for exome data
 
 It includes three separate files: \
-&emsp;  [bash] 1 Fulgent_quiz.sh \
+&emsp;  [bash] 1 Depth_Demo.sh \
 &emsp;  [R] 2 Create_hg38_RefSeq_exon_bed.R \
-&emsp;  [R] 3 Fulgent_coverage_summary.R 
+&emsp;  [R] 3 Coverage_summary.R 
 
 The entire process can be completed by running the bash script which calls the R scripts.
 The three files are downloaded: \
