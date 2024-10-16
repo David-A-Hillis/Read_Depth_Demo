@@ -10,10 +10,10 @@
 #SBATCH --time=15-00:00:00
 #SBATCH --job-name="Fulgent_quiz"
 
-# Created on 09/20/2024 for Fulgent Bioinformatics Scientist I quiz by David Hillis
+# Created on 09/20/2024 by David Hillis
 # This code will run using conda environment "general"
 # This is a premade environment for trimming, aligning, and variant/methylation calling 
-# This will all be done in the working directory "/home/davidhillis/Fulgent/"
+# This will all be done in the working directory "/home/davidhillis/"
 
 # For some reason, this server struggles to locate code loaded into a conda environment
 # Identifying the folder is a consistently reliable solution to this
@@ -38,6 +38,6 @@ scripts="/home/davidhillis/anaconda3/envs/general/bin/"
 #${scripts}samtools depth -b hg38_RefSeq_exons.bed NA12878.alt_bwamem_GRCh38DH.20150826.CEU.exome.cram > NA12878_coverage.txt
 
 # This is a simple R script written to summarize the coverage and provide visuals
-${scripts}Rscript Fulgent_coverage_summary.R
+${scripts}Rscript Coverage_summary.R
 
 
