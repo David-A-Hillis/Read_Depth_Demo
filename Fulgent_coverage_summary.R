@@ -1,9 +1,9 @@
-# This code is written on 09/20/2024 by David Hillis for Fulgent Bioinformatics Scientist I quiz
+# This code is written on 09/20/2024 by David Hillis
 # This will read in the read depth output from samtools and provide:
 # 1 - a csv file with a summary of the read depths
 # 2 - a simple histogram of those read_depth (excluding outliers)
 
-setwd("/home/davidhillis/Fulgent/")
+setwd("/home/davidhillis/")
 data <- read.table("NA12878_coverage.txt", sep = "\t")
 
 # Create empty output file
