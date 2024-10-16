@@ -1,6 +1,6 @@
 # Read Depth Determination for GIAB, NA12878/HG001
 
-The scripts in the current directory were created as part of a Quiz by Fulgent Genetics for Bioinformatics Scientist I
+The scripts in the current directory were created as to demonstrate read depth calculations for exome data
 
 It includes three separate files: \
 &emsp;  [bash] 1 Fulgent_quiz.sh \
